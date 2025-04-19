@@ -113,7 +113,7 @@ FILTER_DUPLICATES = True
 
 
 # Twitter API Settings
-TWITTER_API_KEY = "54600ae426bd46f8a5f6c7d16df4e00b"  # کلید از settings_local.py خوانده می‌شود
+TWITTER_API_KEY = ""  # کلید از settings_local.py خوانده می‌شود
 TWITTER_API_DAILY_BUDGET_USD = 0.5  # بودجه روزانه به دلار
 TWITTER_API_CACHE_ENABLED = True  # فعال‌سازی کش
 TWITTER_API_CACHE_DIR = '.twitter_cache'  # دایرکتوری کش
