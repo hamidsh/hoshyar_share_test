@@ -1,0 +1,71 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+media/
+staticfiles/
+migrations/*
+!migrations/__init__.py
+
+# PyCharm
+.idea/
+*.iml
+
+# Virtualenv
+bin/
+include/
+lib64/
+pyvenv.cfg
+pip-selfcheck.json
+
+# Other common files
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.sass-cache
+node_modules/
+dist/
+build/
+*.egg-info/
+*.egg
+.coverage
+coverage.xml
+.pytest_cache/
+.tox/
+.nox/
+.cache/
+*.prof
+
+# Sensitive data
+.env
+.env.*
+!.env.example
+*.secret
+*.key
+credentials.json
+secrets.json
+
+# Testing
+htmlcov/
+coverage/
+*.cover
+*.cache
+nosetests.xml
+*.test
+*.tests
+test-results/
